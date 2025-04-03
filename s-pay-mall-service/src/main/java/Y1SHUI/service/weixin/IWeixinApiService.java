@@ -3,7 +3,7 @@ package Y1SHUI.service.weixin;
 import Y1SHUI.domain.req.WeixinQrCodeReq;
 import Y1SHUI.domain.res.WeixinQrCodeRes;
 import Y1SHUI.domain.res.WeixinTokenRes;
-import Y1SHUI.domain.vo.WeixinTemplateMessageVO;
+import Y1SHUI.domain.po.WeixinTemplateMessageVO;
 import retrofit2.Call;
 import retrofit2.http.Body;
 import retrofit2.http.GET;

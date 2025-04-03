@@ -1,4 +1,4 @@
-package Y1SHUI.domain.vo;
+package Y1SHUI.domain.po;
 
 import java.util.HashMap;
 import java.util.Map;

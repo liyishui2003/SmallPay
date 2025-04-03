@@ -3,7 +3,7 @@ package Y1SHUI.service.impl;
 import Y1SHUI.domain.req.WeixinQrCodeReq;
 import Y1SHUI.domain.res.WeixinQrCodeRes;
 import Y1SHUI.domain.res.WeixinTokenRes;
-import Y1SHUI.domain.vo.WeixinTemplateMessageVO;
+import Y1SHUI.domain.po.WeixinTemplateMessageVO;
 import Y1SHUI.service.ILoginService;
 import Y1SHUI.service.weixin.IWeixinApiService;
 import com.google.common.cache.Cache;

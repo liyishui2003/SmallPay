@@ -1,0 +1,34 @@
+25-03-21.20:42:17.787 [main            ] WARN  ClassPathMapperScanner - No MyBatis mapper was found in '[Y1SHUI]' package. Please check your configuration.
+25-03-21.20:42:18.755 [main            ] WARN  AnnotationConfigServletWebServerApplicationContext - Exception encountered during context initialization - cancelling refresh attempt: org.springframework.beans.factory.BeanCreationException: Error creating bean with name 'weixinPortalController': Injection of resource dependencies failed; nested exception is org.springframework.beans.factory.BeanCreationException: Error creating bean with name 'weixinLoginServiceImpl': Injection of resource dependencies failed; nested exception is org.springframework.beans.factory.NoSuchBeanDefinitionException: No qualifying bean of type 'com.google.common.cache.Cache<java.lang.String, java.lang.String>' available: expected at least 1 bean which qualifies as autowire candidate. Dependency annotations: {@javax.annotation.Resource(shareable=true, lookup=, name=, description=, authenticationType=CONTAINER, type=class java.lang.Object, mappedName=)}
+25-03-21.20:42:18.818 [main            ] ERROR LoggingFailureAnalysisReporter - 
+
+***************************
+APPLICATION FAILED TO START
+***************************
+
+Description:
+
+A component required a bean of type 'com.google.common.cache.Cache' that could not be found.
+
+
+Action:
+
+Consider defining a bean of type 'com.google.common.cache.Cache' in your configuration.
+
+25-03-21.20:46:54.448 [main            ] WARN  ClassPathMapperScanner - No MyBatis mapper was found in '[Y1SHUI]' package. Please check your configuration.
+25-03-21.20:46:55.709 [main            ] WARN  AnnotationConfigServletWebServerApplicationContext - Exception encountered during context initialization - cancelling refresh attempt: org.springframework.beans.factory.BeanCreationException: Error creating bean with name 'weixinPortalController': Injection of resource dependencies failed; nested exception is org.springframework.beans.factory.BeanCreationException: Error creating bean with name 'weixinLoginServiceImpl': Injection of resource dependencies failed; nested exception is org.springframework.beans.factory.NoSuchBeanDefinitionException: No qualifying bean of type 'com.google.common.cache.Cache<java.lang.String, java.lang.String>' available: expected at least 1 bean which qualifies as autowire candidate. Dependency annotations: {@javax.annotation.Resource(shareable=true, lookup=, name=, description=, authenticationType=CONTAINER, type=class java.lang.Object, mappedName=)}
+25-03-21.20:46:55.789 [main            ] ERROR LoggingFailureAnalysisReporter - 
+
+***************************
+APPLICATION FAILED TO START
+***************************
+
+Description:
+
+A component required a bean of type 'com.google.common.cache.Cache' that could not be found.
+
+
+Action:
+
+Consider defining a bean of type 'com.google.common.cache.Cache' in your configuration.
+

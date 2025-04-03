@@ -1,0 +1,530 @@
+25-03-22.12:09:05.961 [main            ] INFO  Application            - Starting Application using Java 1.8.0_391 on Huey with PID 21172 (C:\Users\liyishui\Desktop\Small-Pay\s-pay-mall-web\target\classes started by liyishui in C:\Users\liyishui\Desktop\Small-Pay)
+25-03-22.12:09:05.966 [main            ] INFO  Application            - The following 1 profile is active: "dev"
+25-03-22.12:09:06.996 [main            ] WARN  ClassPathMapperScanner - No MyBatis mapper was found in '[Y1SHUI]' package. Please check your configuration.
+25-03-22.12:09:07.525 [main            ] INFO  TomcatWebServer        - Tomcat initialized with port(s): 8092 (http)
+25-03-22.12:09:07.537 [main            ] INFO  Http11NioProtocol      - Initializing ProtocolHandler ["http-nio-8092"]
+25-03-22.12:09:07.538 [main            ] INFO  StandardService        - Starting service [Tomcat]
+25-03-22.12:09:07.538 [main            ] INFO  StandardEngine         - Starting Servlet engine: [Apache Tomcat/9.0.75]
+25-03-22.12:09:07.842 [main            ] INFO  [/]                    - Initializing Spring embedded WebApplicationContext
+25-03-22.12:09:07.842 [main            ] INFO  ServletWebServerApplicationContext - Root WebApplicationContext: initialization completed in 1786 ms
+25-03-22.12:09:07.964 [main            ] WARN  AnnotationConfigServletWebServerApplicationContext - Exception encountered during context initialization - cancelling refresh attempt: org.springframework.beans.factory.BeanCreationException: Error creating bean with name 'weixinPortalController': Injection of resource dependencies failed; nested exception is org.springframework.beans.factory.BeanCreationException: Error creating bean with name 'weixinLoginServiceImpl': Injection of resource dependencies failed; nested exception is org.springframework.beans.factory.NoSuchBeanDefinitionException: No qualifying bean of type 'Y1SHUI.service.weixin.IWeixinApiService' available: expected at least 1 bean which qualifies as autowire candidate. Dependency annotations: {@javax.annotation.Resource(shareable=true, lookup=, name=, description=, authenticationType=CONTAINER, type=class java.lang.Object, mappedName=)}
+25-03-22.12:09:07.966 [main            ] INFO  StandardService        - Stopping service [Tomcat]
+25-03-22.12:09:07.987 [main            ] INFO  ConditionEvaluationReportLoggingListener - 
+
+Error starting ApplicationContext. To display the conditions report re-run your application with 'debug' enabled.
+25-03-22.12:09:08.035 [main            ] ERROR LoggingFailureAnalysisReporter - 
+
+***************************
+APPLICATION FAILED TO START
+***************************
+
+Description:
+
+A component required a bean of type 'Y1SHUI.service.weixin.IWeixinApiService' that could not be found.
+
+
+Action:
+
+Consider defining a bean of type 'Y1SHUI.service.weixin.IWeixinApiService' in your configuration.
+
+25-03-22.12:12:05.277 [main            ] INFO  Application            - Starting Application using Java 1.8.0_391 on Huey with PID 16960 (C:\Users\liyishui\Desktop\Small-Pay\s-pay-mall-web\target\classes started by liyishui in C:\Users\liyishui\Desktop\Small-Pay)
+25-03-22.12:12:05.280 [main            ] INFO  Application            - The following 1 profile is active: "dev"
+25-03-22.12:12:06.030 [main            ] WARN  ClassPathMapperScanner - No MyBatis mapper was found in '[Y1SHUI]' package. Please check your configuration.
+25-03-22.12:12:06.482 [main            ] INFO  TomcatWebServer        - Tomcat initialized with port(s): 8092 (http)
+25-03-22.12:12:06.492 [main            ] INFO  Http11NioProtocol      - Initializing ProtocolHandler ["http-nio-8092"]
+25-03-22.12:12:06.492 [main            ] INFO  StandardService        - Starting service [Tomcat]
+25-03-22.12:12:06.493 [main            ] INFO  StandardEngine         - Starting Servlet engine: [Apache Tomcat/9.0.75]
+25-03-22.12:12:06.724 [main            ] INFO  [/]                    - Initializing Spring embedded WebApplicationContext
+25-03-22.12:12:06.725 [main            ] INFO  ServletWebServerApplicationContext - Root WebApplicationContext: initialization completed in 1389 ms
+25-03-22.12:12:06.822 [main            ] WARN  AnnotationConfigServletWebServerApplicationContext - Exception encountered during context initialization - cancelling refresh attempt: org.springframework.beans.factory.BeanCreationException: Error creating bean with name 'weixinPortalController': Injection of resource dependencies failed; nested exception is org.springframework.beans.factory.BeanCreationException: Error creating bean with name 'weixinLoginServiceImpl': Injection of resource dependencies failed; nested exception is org.springframework.beans.factory.NoSuchBeanDefinitionException: No qualifying bean of type 'Y1SHUI.service.weixin.IWeixinApiService' available: expected at least 1 bean which qualifies as autowire candidate. Dependency annotations: {@javax.annotation.Resource(shareable=true, lookup=, name=, description=, authenticationType=CONTAINER, type=class java.lang.Object, mappedName=)}
+25-03-22.12:12:06.826 [main            ] INFO  StandardService        - Stopping service [Tomcat]
+25-03-22.12:12:06.843 [main            ] INFO  ConditionEvaluationReportLoggingListener - 
+
+Error starting ApplicationContext. To display the conditions report re-run your application with 'debug' enabled.
+25-03-22.12:12:06.868 [main            ] ERROR LoggingFailureAnalysisReporter - 
+
+***************************
+APPLICATION FAILED TO START
+***************************
+
+Description:
+
+A component required a bean of type 'Y1SHUI.service.weixin.IWeixinApiService' that could not be found.
+
+
+Action:
+
+Consider defining a bean of type 'Y1SHUI.service.weixin.IWeixinApiService' in your configuration.
+
+25-03-22.13:08:53.647 [main            ] INFO  Application            - Starting Application using Java 1.8.0_391 on Huey with PID 30360 (C:\Users\liyishui\Desktop\Small-Pay\s-pay-mall-web\target\classes started by liyishui in C:\Users\liyishui\Desktop\Small-Pay)
+25-03-22.13:08:53.651 [main            ] INFO  Application            - The following 1 profile is active: "dev"
+25-03-22.13:08:54.594 [main            ] WARN  ClassPathMapperScanner - No MyBatis mapper was found in '[Y1SHUI]' package. Please check your configuration.
+25-03-22.13:08:55.156 [main            ] INFO  TomcatWebServer        - Tomcat initialized with port(s): 8092 (http)
+25-03-22.13:08:55.173 [main            ] INFO  Http11NioProtocol      - Initializing ProtocolHandler ["http-nio-8092"]
+25-03-22.13:08:55.174 [main            ] INFO  StandardService        - Starting service [Tomcat]
+25-03-22.13:08:55.175 [main            ] INFO  StandardEngine         - Starting Servlet engine: [Apache Tomcat/9.0.75]
+25-03-22.13:08:55.523 [main            ] INFO  [/]                    - Initializing Spring embedded WebApplicationContext
+25-03-22.13:08:55.523 [main            ] INFO  ServletWebServerApplicationContext - Root WebApplicationContext: initialization completed in 1809 ms
+25-03-22.13:08:56.567 [main            ] WARN  AnnotationConfigServletWebServerApplicationContext - Exception encountered during context initialization - cancelling refresh attempt: org.springframework.beans.factory.BeanCreationException: Error creating bean with name 'dataSource' defined in class path resource [org/springframework/boot/autoconfigure/jdbc/DataSourceConfiguration$Hikari.class]: Bean instantiation via factory method failed; nested exception is org.springframework.beans.BeanInstantiationException: Failed to instantiate [com.zaxxer.hikari.HikariDataSource]: Factory method 'dataSource' threw exception; nested exception is org.springframework.boot.autoconfigure.jdbc.DataSourceProperties$DataSourceBeanCreationException: Failed to determine a suitable driver class
+25-03-22.13:08:56.573 [main            ] INFO  StandardService        - Stopping service [Tomcat]
+25-03-22.13:08:56.589 [main            ] INFO  ConditionEvaluationReportLoggingListener - 
+
+Error starting ApplicationContext. To display the conditions report re-run your application with 'debug' enabled.
+25-03-22.13:08:56.617 [main            ] ERROR LoggingFailureAnalysisReporter - 
+
+***************************
+APPLICATION FAILED TO START
+***************************
+
+Description:
+
+Failed to configure a DataSource: 'url' attribute is not specified and no embedded datasource could be configured.
+
+Reason: Failed to determine a suitable driver class
+
+
+Action:
+
+Consider the following:
+	If you want an embedded database (H2, HSQL or Derby), please put it on the classpath.
+	If you have database settings to be loaded from a particular profile you may need to activate it (the profiles dev are currently active).
+
+25-03-22.13:46:59.839 [main            ] INFO  Application            - Starting Application using Java 1.8.0_391 on Huey with PID 15572 (C:\Users\liyishui\Desktop\Small-Pay\s-pay-mall-web\target\classes started by liyishui in C:\Users\liyishui\Desktop\Small-Pay)
+25-03-22.13:46:59.841 [main            ] INFO  Application            - The following 1 profile is active: "dev"
+25-03-22.13:47:00.323 [main            ] WARN  ClassPathMapperScanner - No MyBatis mapper was found in '[Y1SHUI]' package. Please check your configuration.
+25-03-22.13:47:00.609 [main            ] INFO  TomcatWebServer        - Tomcat initialized with port(s): 8092 (http)
+25-03-22.13:47:00.617 [main            ] INFO  Http11NioProtocol      - Initializing ProtocolHandler ["http-nio-8092"]
+25-03-22.13:47:00.618 [main            ] INFO  StandardService        - Starting service [Tomcat]
+25-03-22.13:47:00.618 [main            ] INFO  StandardEngine         - Starting Servlet engine: [Apache Tomcat/9.0.75]
+25-03-22.13:47:00.780 [main            ] INFO  [/]                    - Initializing Spring embedded WebApplicationContext
+25-03-22.13:47:00.780 [main            ] INFO  ServletWebServerApplicationContext - Root WebApplicationContext: initialization completed in 907 ms
+25-03-22.13:47:01.369 [main            ] WARN  AnnotationConfigServletWebServerApplicationContext - Exception encountered during context initialization - cancelling refresh attempt: org.springframework.beans.factory.BeanCreationException: Error creating bean with name 'dataSource' defined in class path resource [org/springframework/boot/autoconfigure/jdbc/DataSourceConfiguration$Hikari.class]: Bean instantiation via factory method failed; nested exception is org.springframework.beans.BeanInstantiationException: Failed to instantiate [com.zaxxer.hikari.HikariDataSource]: Factory method 'dataSource' threw exception; nested exception is org.springframework.boot.autoconfigure.jdbc.DataSourceProperties$DataSourceBeanCreationException: Failed to determine a suitable driver class
+25-03-22.13:47:01.372 [main            ] INFO  StandardService        - Stopping service [Tomcat]
+25-03-22.13:47:01.383 [main            ] INFO  ConditionEvaluationReportLoggingListener - 
+
+Error starting ApplicationContext. To display the conditions report re-run your application with 'debug' enabled.
+25-03-22.13:47:01.400 [main            ] ERROR LoggingFailureAnalysisReporter - 
+
+***************************
+APPLICATION FAILED TO START
+***************************
+
+Description:
+
+Failed to configure a DataSource: 'url' attribute is not specified and no embedded datasource could be configured.
+
+Reason: Failed to determine a suitable driver class
+
+
+Action:
+
+Consider the following:
+	If you want an embedded database (H2, HSQL or Derby), please put it on the classpath.
+	If you have database settings to be loaded from a particular profile you may need to activate it (the profiles dev are currently active).
+
+25-03-22.13:50:53.136 [main            ] INFO  Application            - Starting Application using Java 1.8.0_391 on Huey with PID 9992 (C:\Users\liyishui\Desktop\Small-Pay\s-pay-mall-web\target\classes started by liyishui in C:\Users\liyishui\Desktop\Small-Pay)
+25-03-22.13:50:53.138 [main            ] INFO  Application            - The following 1 profile is active: "dev"
+25-03-22.13:50:53.688 [main            ] INFO  TomcatWebServer        - Tomcat initialized with port(s): 8092 (http)
+25-03-22.13:50:53.693 [main            ] INFO  Http11NioProtocol      - Initializing ProtocolHandler ["http-nio-8092"]
+25-03-22.13:50:53.693 [main            ] INFO  StandardService        - Starting service [Tomcat]
+25-03-22.13:50:53.693 [main            ] INFO  StandardEngine         - Starting Servlet engine: [Apache Tomcat/9.0.75]
+25-03-22.13:50:53.813 [main            ] INFO  [/]                    - Initializing Spring embedded WebApplicationContext
+25-03-22.13:50:53.813 [main            ] INFO  ServletWebServerApplicationContext - Root WebApplicationContext: initialization completed in 653 ms
+25-03-22.13:50:54.333 [main            ] INFO  Http11NioProtocol      - Starting ProtocolHandler ["http-nio-8092"]
+25-03-22.13:50:54.346 [main            ] INFO  TomcatWebServer        - Tomcat started on port(s): 8092 (http) with context path ''
+25-03-22.13:50:54.353 [main            ] INFO  Application            - Started Application in 1.538 seconds (JVM running for 2.035)
+25-03-22.13:57:18.752 [http-nio-8092-exec-1] INFO  [/]                    - Initializing Spring DispatcherServlet 'dispatcherServlet'
+25-03-22.13:57:18.753 [http-nio-8092-exec-1] INFO  DispatcherServlet      - Initializing Servlet 'dispatcherServlet'
+25-03-22.13:57:18.753 [http-nio-8092-exec-1] INFO  DispatcherServlet      - Completed initialization in 0 ms
+25-03-22.13:59:35.899 [main            ] INFO  Application            - Starting Application using Java 1.8.0_391 on Huey with PID 10248 (C:\Users\liyishui\Desktop\Small-Pay\s-pay-mall-web\target\classes started by liyishui in C:\Users\liyishui\Desktop\Small-Pay)
+25-03-22.13:59:35.900 [main            ] INFO  Application            - The following 1 profile is active: "dev"
+25-03-22.13:59:36.408 [main            ] INFO  TomcatWebServer        - Tomcat initialized with port(s): 8092 (http)
+25-03-22.13:59:36.414 [main            ] INFO  Http11NioProtocol      - Initializing ProtocolHandler ["http-nio-8092"]
+25-03-22.13:59:36.414 [main            ] INFO  StandardService        - Starting service [Tomcat]
+25-03-22.13:59:36.414 [main            ] INFO  StandardEngine         - Starting Servlet engine: [Apache Tomcat/9.0.75]
+25-03-22.13:59:36.532 [main            ] INFO  [/]                    - Initializing Spring embedded WebApplicationContext
+25-03-22.13:59:36.532 [main            ] INFO  ServletWebServerApplicationContext - Root WebApplicationContext: initialization completed in 608 ms
+25-03-22.13:59:37.196 [main            ] INFO  Http11NioProtocol      - Starting ProtocolHandler ["http-nio-8092"]
+25-03-22.13:59:37.214 [main            ] INFO  TomcatWebServer        - Tomcat started on port(s): 8092 (http) with context path ''
+25-03-22.13:59:37.219 [main            ] INFO  Application            - Started Application in 1.678 seconds (JVM running for 2.254)
+25-03-22.14:02:43.478 [http-nio-8092-exec-1] INFO  [/]                    - Initializing Spring DispatcherServlet 'dispatcherServlet'
+25-03-22.14:02:43.478 [http-nio-8092-exec-1] INFO  DispatcherServlet      - Initializing Servlet 'dispatcherServlet'
+25-03-22.14:02:43.479 [http-nio-8092-exec-1] INFO  DispatcherServlet      - Completed initialization in 1 ms
+25-03-22.14:02:43.503 [http-nio-8092-exec-1] INFO  WeixinPortalController - 微信公众号验签信息开始 [e5266ccfaa6323236779a358ed2970ddff3b194a, 1742623362, 1866162060, 6044386883027236798]
+25-03-22.14:02:43.509 [http-nio-8092-exec-1] INFO  WeixinPortalController - 微信公众号验签信息完成 checkfalse
+25-03-22.14:10:14.654 [main            ] INFO  Application            - Starting Application using Java 1.8.0_391 on Huey with PID 30196 (C:\Users\liyishui\Desktop\Small-Pay\s-pay-mall-web\target\classes started by liyishui in C:\Users\liyishui\Desktop\Small-Pay)
+25-03-22.14:10:14.656 [main            ] INFO  Application            - The following 1 profile is active: "dev"
+25-03-22.14:10:15.160 [main            ] INFO  TomcatWebServer        - Tomcat initialized with port(s): 8092 (http)
+25-03-22.14:10:15.164 [main            ] INFO  Http11NioProtocol      - Initializing ProtocolHandler ["http-nio-8092"]
+25-03-22.14:10:15.164 [main            ] INFO  StandardService        - Starting service [Tomcat]
+25-03-22.14:10:15.165 [main            ] INFO  StandardEngine         - Starting Servlet engine: [Apache Tomcat/9.0.75]
+25-03-22.14:10:15.284 [main            ] INFO  [/]                    - Initializing Spring embedded WebApplicationContext
+25-03-22.14:10:15.284 [main            ] INFO  ServletWebServerApplicationContext - Root WebApplicationContext: initialization completed in 602 ms
+25-03-22.14:10:15.809 [main            ] INFO  Http11NioProtocol      - Starting ProtocolHandler ["http-nio-8092"]
+25-03-22.14:10:15.819 [main            ] INFO  TomcatWebServer        - Tomcat started on port(s): 8092 (http) with context path ''
+25-03-22.14:10:15.826 [main            ] INFO  Application            - Started Application in 1.463 seconds (JVM running for 1.882)
+25-03-22.14:10:22.518 [http-nio-8092-exec-4] INFO  [/]                    - Initializing Spring DispatcherServlet 'dispatcherServlet'
+25-03-22.14:10:22.518 [http-nio-8092-exec-4] INFO  DispatcherServlet      - Initializing Servlet 'dispatcherServlet'
+25-03-22.14:10:22.519 [http-nio-8092-exec-4] INFO  DispatcherServlet      - Completed initialization in 1 ms
+25-03-22.14:10:22.540 [http-nio-8092-exec-4] INFO  WeixinPortalController - 微信公众号验签信息开始 [fd8c4aabe3e2e4adeef9b0b875398e1ece2fb3a7, 1742623821, 2028560378, 5381978900081367021]
+25-03-22.14:10:22.546 [http-nio-8092-exec-4] INFO  SignatureUtil          - tmpStr= 83DAD2DC33EB4FFA6608BE00EE10719DACA964BA
+25-03-22.14:10:22.546 [http-nio-8092-exec-4] INFO  SignatureUtil          - signature= fd8c4aabe3e2e4adeef9b0b875398e1ece2fb3a7
+25-03-22.14:10:22.546 [http-nio-8092-exec-4] INFO  WeixinPortalController - 微信公众号验签信息完成 checkfalse 
+25-03-22.14:11:06.913 [main            ] INFO  Application            - Starting Application using Java 1.8.0_391 on Huey with PID 14740 (C:\Users\liyishui\Desktop\Small-Pay\s-pay-mall-web\target\classes started by liyishui in C:\Users\liyishui\Desktop\Small-Pay)
+25-03-22.14:11:06.914 [main            ] INFO  Application            - The following 1 profile is active: "dev"
+25-03-22.14:11:07.432 [main            ] INFO  TomcatWebServer        - Tomcat initialized with port(s): 8092 (http)
+25-03-22.14:11:07.437 [main            ] INFO  Http11NioProtocol      - Initializing ProtocolHandler ["http-nio-8092"]
+25-03-22.14:11:07.438 [main            ] INFO  StandardService        - Starting service [Tomcat]
+25-03-22.14:11:07.438 [main            ] INFO  StandardEngine         - Starting Servlet engine: [Apache Tomcat/9.0.75]
+25-03-22.14:11:07.562 [main            ] INFO  [/]                    - Initializing Spring embedded WebApplicationContext
+25-03-22.14:11:07.562 [main            ] INFO  ServletWebServerApplicationContext - Root WebApplicationContext: initialization completed in 621 ms
+25-03-22.14:11:08.096 [main            ] INFO  Http11NioProtocol      - Starting ProtocolHandler ["http-nio-8092"]
+25-03-22.14:11:08.106 [main            ] INFO  TomcatWebServer        - Tomcat started on port(s): 8092 (http) with context path ''
+25-03-22.14:11:08.113 [main            ] INFO  Application            - Started Application in 1.534 seconds (JVM running for 2.01)
+25-03-22.14:11:11.774 [http-nio-8092-exec-1] INFO  [/]                    - Initializing Spring DispatcherServlet 'dispatcherServlet'
+25-03-22.14:11:11.774 [http-nio-8092-exec-1] INFO  DispatcherServlet      - Initializing Servlet 'dispatcherServlet'
+25-03-22.14:11:11.775 [http-nio-8092-exec-1] INFO  DispatcherServlet      - Completed initialization in 1 ms
+25-03-22.14:11:11.803 [http-nio-8092-exec-1] INFO  WeixinPortalController - 微信公众号验签信息开始 [69bad841cb4cd7e53887d9570d75bf36a257fb8b, 1742623871, 1210824711, 8556675823264824959]
+25-03-22.14:11:11.808 [http-nio-8092-exec-1] INFO  WeixinPortalController - 微信公众号验签信息完成 checkfalse 
+25-03-22.14:16:58.150 [main            ] INFO  Application            - Starting Application using Java 1.8.0_391 on Huey with PID 31448 (C:\Users\liyishui\Desktop\Small-Pay\s-pay-mall-web\target\classes started by liyishui in C:\Users\liyishui\Desktop\Small-Pay)
+25-03-22.14:16:58.152 [main            ] INFO  Application            - The following 1 profile is active: "dev"
+25-03-22.14:16:58.691 [main            ] INFO  TomcatWebServer        - Tomcat initialized with port(s): 8092 (http)
+25-03-22.14:16:58.697 [main            ] INFO  Http11NioProtocol      - Initializing ProtocolHandler ["http-nio-8092"]
+25-03-22.14:16:58.697 [main            ] INFO  StandardService        - Starting service [Tomcat]
+25-03-22.14:16:58.697 [main            ] INFO  StandardEngine         - Starting Servlet engine: [Apache Tomcat/9.0.75]
+25-03-22.14:16:58.826 [main            ] INFO  [/]                    - Initializing Spring embedded WebApplicationContext
+25-03-22.14:16:58.826 [main            ] INFO  ServletWebServerApplicationContext - Root WebApplicationContext: initialization completed in 645 ms
+25-03-22.14:16:59.428 [main            ] INFO  Http11NioProtocol      - Starting ProtocolHandler ["http-nio-8092"]
+25-03-22.14:16:59.447 [main            ] INFO  TomcatWebServer        - Tomcat started on port(s): 8092 (http) with context path ''
+25-03-22.14:16:59.453 [main            ] INFO  Application            - Started Application in 1.636 seconds (JVM running for 2.079)
+25-03-22.14:17:04.267 [http-nio-8092-exec-1] INFO  [/]                    - Initializing Spring DispatcherServlet 'dispatcherServlet'
+25-03-22.14:17:04.267 [http-nio-8092-exec-1] INFO  DispatcherServlet      - Initializing Servlet 'dispatcherServlet'
+25-03-22.14:17:04.268 [http-nio-8092-exec-1] INFO  DispatcherServlet      - Completed initialization in 1 ms
+25-03-22.14:17:04.285 [http-nio-8092-exec-1] INFO  WeixinPortalController - 微信公众号验签信息开始 [4d1b6886926e5a822a463d69d8d17883a58e9362, 1742624223, 1381955079, 6499707266839599103]
+25-03-22.14:17:04.289 [http-nio-8092-exec-1] INFO  SignatureUtil          - tmpStr= 71BAFE7CC641BCEBF15FCCBC28E2E60594B0E91C
+25-03-22.14:17:04.289 [http-nio-8092-exec-1] INFO  SignatureUtil          - signature= 4d1b6886926e5a822a463d69d8d17883a58e9362
+25-03-22.14:17:04.289 [http-nio-8092-exec-1] INFO  WeixinPortalController - 微信公众号验签信息完成 checkfalse 
+25-03-22.14:17:30.255 [main            ] INFO  Application            - Starting Application using Java 1.8.0_391 on Huey with PID 21144 (C:\Users\liyishui\Desktop\Small-Pay\s-pay-mall-web\target\classes started by liyishui in C:\Users\liyishui\Desktop\Small-Pay)
+25-03-22.14:17:30.256 [main            ] INFO  Application            - The following 1 profile is active: "dev"
+25-03-22.14:17:30.785 [main            ] INFO  TomcatWebServer        - Tomcat initialized with port(s): 8092 (http)
+25-03-22.14:17:30.791 [main            ] INFO  Http11NioProtocol      - Initializing ProtocolHandler ["http-nio-8092"]
+25-03-22.14:17:30.791 [main            ] INFO  StandardService        - Starting service [Tomcat]
+25-03-22.14:17:30.791 [main            ] INFO  StandardEngine         - Starting Servlet engine: [Apache Tomcat/9.0.75]
+25-03-22.14:17:30.912 [main            ] INFO  [/]                    - Initializing Spring embedded WebApplicationContext
+25-03-22.14:17:30.912 [main            ] INFO  ServletWebServerApplicationContext - Root WebApplicationContext: initialization completed in 625 ms
+25-03-22.14:17:31.522 [main            ] INFO  Http11NioProtocol      - Starting ProtocolHandler ["http-nio-8092"]
+25-03-22.14:17:31.539 [main            ] INFO  TomcatWebServer        - Tomcat started on port(s): 8092 (http) with context path ''
+25-03-22.14:17:31.545 [main            ] INFO  Application            - Started Application in 1.587 seconds (JVM running for 2.002)
+25-03-22.14:17:33.527 [http-nio-8092-exec-1] INFO  [/]                    - Initializing Spring DispatcherServlet 'dispatcherServlet'
+25-03-22.14:17:33.527 [http-nio-8092-exec-1] INFO  DispatcherServlet      - Initializing Servlet 'dispatcherServlet'
+25-03-22.14:17:33.527 [http-nio-8092-exec-1] INFO  DispatcherServlet      - Completed initialization in 0 ms
+25-03-22.14:17:33.559 [http-nio-8092-exec-1] INFO  WeixinPortalController - 微信公众号验签信息开始 [b826d5448c3be30a7fa8607682905da9be8aca11, 1742624252, 632445122, 2138128738661859325]
+25-03-22.14:17:33.569 [http-nio-8092-exec-1] INFO  SignatureUtil          - tmpStr= EA5EA5055EB99068B326E64A0961E157D57DC579
+25-03-22.14:17:33.569 [http-nio-8092-exec-1] INFO  SignatureUtil          - signature= B826D5448C3BE30A7FA8607682905DA9BE8ACA11
+25-03-22.14:17:33.569 [http-nio-8092-exec-1] INFO  WeixinPortalController - 微信公众号验签信息完成 checkfalse 
+25-03-22.14:23:53.814 [main            ] INFO  Application            - Starting Application using Java 1.8.0_391 on Huey with PID 6960 (C:\Users\liyishui\Desktop\Small-Pay\s-pay-mall-web\target\classes started by liyishui in C:\Users\liyishui\Desktop\Small-Pay)
+25-03-22.14:23:53.817 [main            ] INFO  Application            - The following 1 profile is active: "dev"
+25-03-22.14:23:54.358 [main            ] INFO  TomcatWebServer        - Tomcat initialized with port(s): 8092 (http)
+25-03-22.14:23:54.364 [main            ] INFO  Http11NioProtocol      - Initializing ProtocolHandler ["http-nio-8092"]
+25-03-22.14:23:54.365 [main            ] INFO  StandardService        - Starting service [Tomcat]
+25-03-22.14:23:54.365 [main            ] INFO  StandardEngine         - Starting Servlet engine: [Apache Tomcat/9.0.75]
+25-03-22.14:23:54.476 [main            ] INFO  [/]                    - Initializing Spring embedded WebApplicationContext
+25-03-22.14:23:54.477 [main            ] INFO  ServletWebServerApplicationContext - Root WebApplicationContext: initialization completed in 630 ms
+25-03-22.14:23:55.028 [main            ] INFO  Http11NioProtocol      - Starting ProtocolHandler ["http-nio-8092"]
+25-03-22.14:23:55.040 [main            ] INFO  TomcatWebServer        - Tomcat started on port(s): 8092 (http) with context path ''
+25-03-22.14:23:55.046 [main            ] INFO  Application            - Started Application in 1.581 seconds (JVM running for 2.056)
+25-03-22.14:23:58.089 [http-nio-8092-exec-1] INFO  [/]                    - Initializing Spring DispatcherServlet 'dispatcherServlet'
+25-03-22.14:23:58.090 [http-nio-8092-exec-1] INFO  DispatcherServlet      - Initializing Servlet 'dispatcherServlet'
+25-03-22.14:23:58.090 [http-nio-8092-exec-1] INFO  DispatcherServlet      - Completed initialization in 0 ms
+25-03-22.14:23:58.112 [http-nio-8092-exec-1] INFO  WeixinPortalController - 微信公众号验签信息开始 [db8d0fe7daee59feee34b30386b026ead3784bad, 1742624637, 1657373626, 4773518579838410751]
+25-03-22.14:23:58.117 [http-nio-8092-exec-1] INFO  SignatureUtil          - arr=[80, 1742624637, 1657373626]
+25-03-22.14:23:58.117 [http-nio-8092-exec-1] INFO  SignatureUtil          - content=8017426246371657373626
+25-03-22.14:23:58.117 [http-nio-8092-exec-1] INFO  SignatureUtil          - tmpStr= 725EEA1B6A50D314F61CF9933C468526C8E767E3
+25-03-22.14:23:58.117 [http-nio-8092-exec-1] INFO  SignatureUtil          - signature= DB8D0FE7DAEE59FEEE34B30386B026EAD3784BAD
+25-03-22.14:23:58.117 [http-nio-8092-exec-1] INFO  WeixinPortalController - 微信公众号验签信息完成 checkfalse 
+25-03-22.14:24:22.525 [main            ] INFO  Application            - Starting Application using Java 1.8.0_391 on Huey with PID 30656 (C:\Users\liyishui\Desktop\Small-Pay\s-pay-mall-web\target\classes started by liyishui in C:\Users\liyishui\Desktop\Small-Pay)
+25-03-22.14:24:22.527 [main            ] INFO  Application            - The following 1 profile is active: "dev"
+25-03-22.14:24:23.066 [main            ] INFO  TomcatWebServer        - Tomcat initialized with port(s): 8092 (http)
+25-03-22.14:24:23.073 [main            ] INFO  Http11NioProtocol      - Initializing ProtocolHandler ["http-nio-8092"]
+25-03-22.14:24:23.074 [main            ] INFO  StandardService        - Starting service [Tomcat]
+25-03-22.14:24:23.074 [main            ] INFO  StandardEngine         - Starting Servlet engine: [Apache Tomcat/9.0.75]
+25-03-22.14:24:23.180 [main            ] INFO  [/]                    - Initializing Spring embedded WebApplicationContext
+25-03-22.14:24:23.180 [main            ] INFO  ServletWebServerApplicationContext - Root WebApplicationContext: initialization completed in 618 ms
+25-03-22.14:24:23.708 [main            ] INFO  Http11NioProtocol      - Starting ProtocolHandler ["http-nio-8092"]
+25-03-22.14:24:23.719 [main            ] INFO  TomcatWebServer        - Tomcat started on port(s): 8092 (http) with context path ''
+25-03-22.14:24:23.726 [main            ] INFO  Application            - Started Application in 1.511 seconds (JVM running for 1.988)
+25-03-22.14:24:27.593 [http-nio-8092-exec-1] INFO  [/]                    - Initializing Spring DispatcherServlet 'dispatcherServlet'
+25-03-22.14:24:27.594 [http-nio-8092-exec-1] INFO  DispatcherServlet      - Initializing Servlet 'dispatcherServlet'
+25-03-22.14:24:27.595 [http-nio-8092-exec-1] INFO  DispatcherServlet      - Completed initialization in 1 ms
+25-03-22.14:24:27.616 [http-nio-8092-exec-1] INFO  WeixinPortalController - 微信公众号验签信息开始 [b0599da6152cc040d5da9c458406472f59e5a0e3, 1742624667, 1276838450, 4071750782550955931]
+25-03-22.14:24:27.621 [http-nio-8092-exec-1] INFO  SignatureUtil          - arr=[80, 1742624667, 1276838450]
+25-03-22.14:24:27.621 [http-nio-8092-exec-1] INFO  SignatureUtil          - arr=[80, 1742624667, 1276838450]
+25-03-22.14:24:27.621 [http-nio-8092-exec-1] INFO  SignatureUtil          - content=8017426246671276838450
+25-03-22.14:24:27.621 [http-nio-8092-exec-1] INFO  SignatureUtil          - tmpStr= FC4DE72DB7B9175C99F2F52136B7C587CDE7EFDC
+25-03-22.14:24:27.621 [http-nio-8092-exec-1] INFO  SignatureUtil          - signature= B0599DA6152CC040D5DA9C458406472F59E5A0E3
+25-03-22.14:24:27.622 [http-nio-8092-exec-1] INFO  WeixinPortalController - 微信公众号验签信息完成 checkfalse 
+25-03-22.14:25:29.588 [main            ] INFO  Application            - Starting Application using Java 1.8.0_391 on Huey with PID 31300 (C:\Users\liyishui\Desktop\Small-Pay\s-pay-mall-web\target\classes started by liyishui in C:\Users\liyishui\Desktop\Small-Pay)
+25-03-22.14:25:29.590 [main            ] INFO  Application            - The following 1 profile is active: "dev"
+25-03-22.14:25:30.108 [main            ] INFO  TomcatWebServer        - Tomcat initialized with port(s): 8092 (http)
+25-03-22.14:25:30.113 [main            ] INFO  Http11NioProtocol      - Initializing ProtocolHandler ["http-nio-8092"]
+25-03-22.14:25:30.113 [main            ] INFO  StandardService        - Starting service [Tomcat]
+25-03-22.14:25:30.114 [main            ] INFO  StandardEngine         - Starting Servlet engine: [Apache Tomcat/9.0.75]
+25-03-22.14:25:30.239 [main            ] INFO  [/]                    - Initializing Spring embedded WebApplicationContext
+25-03-22.14:25:30.239 [main            ] INFO  ServletWebServerApplicationContext - Root WebApplicationContext: initialization completed in 617 ms
+25-03-22.14:25:30.760 [main            ] INFO  Http11NioProtocol      - Starting ProtocolHandler ["http-nio-8092"]
+25-03-22.14:25:30.770 [main            ] INFO  TomcatWebServer        - Tomcat started on port(s): 8092 (http) with context path ''
+25-03-22.14:25:30.776 [main            ] INFO  Application            - Started Application in 1.537 seconds (JVM running for 2.01)
+25-03-22.14:25:42.399 [http-nio-8092-exec-2] INFO  [/]                    - Initializing Spring DispatcherServlet 'dispatcherServlet'
+25-03-22.14:25:42.399 [http-nio-8092-exec-2] INFO  DispatcherServlet      - Initializing Servlet 'dispatcherServlet'
+25-03-22.14:25:42.401 [http-nio-8092-exec-2] INFO  DispatcherServlet      - Completed initialization in 2 ms
+25-03-22.14:25:42.420 [http-nio-8092-exec-2] INFO  WeixinPortalController - 微信公众号验签信息开始 [678a1a39ccd11cadce54b8dc67ee33460fc1fdac, 1742624741, 1386282540, 6510454812476168165]
+25-03-22.14:25:42.425 [http-nio-8092-exec-2] INFO  SignatureUtil          - arr=[abcd, 1742624741, 1386282540]
+25-03-22.14:25:42.425 [http-nio-8092-exec-2] INFO  SignatureUtil          - arr=[abcd, 1742624741, 1386282540]
+25-03-22.14:25:42.425 [http-nio-8092-exec-2] INFO  SignatureUtil          - content=abcd17426247411386282540
+25-03-22.14:25:42.425 [http-nio-8092-exec-2] INFO  SignatureUtil          - tmpStr= EBBA6F5A2B9A6EEC5CF69017EEA5E75EA223EDBC
+25-03-22.14:25:42.425 [http-nio-8092-exec-2] INFO  SignatureUtil          - signature= 678A1A39CCD11CADCE54B8DC67EE33460FC1FDAC
+25-03-22.14:25:42.425 [http-nio-8092-exec-2] INFO  WeixinPortalController - 微信公众号验签信息完成 checkfalse 
+25-03-22.14:42:47.403 [main            ] INFO  Application            - Starting Application using Java 1.8.0_391 on Huey with PID 14952 (C:\Users\liyishui\Desktop\Small-Pay\s-pay-mall-web\target\classes started by liyishui in C:\Users\liyishui\Desktop\Small-Pay)
+25-03-22.14:42:47.406 [main            ] INFO  Application            - The following 1 profile is active: "dev"
+25-03-22.14:42:48.556 [main            ] INFO  TomcatWebServer        - Tomcat initialized with port(s): 8092 (http)
+25-03-22.14:42:48.566 [main            ] INFO  Http11NioProtocol      - Initializing ProtocolHandler ["http-nio-8092"]
+25-03-22.14:42:48.566 [main            ] INFO  StandardService        - Starting service [Tomcat]
+25-03-22.14:42:48.567 [main            ] INFO  StandardEngine         - Starting Servlet engine: [Apache Tomcat/9.0.75]
+25-03-22.14:42:48.823 [main            ] INFO  [/]                    - Initializing Spring embedded WebApplicationContext
+25-03-22.14:42:48.823 [main            ] INFO  ServletWebServerApplicationContext - Root WebApplicationContext: initialization completed in 1357 ms
+25-03-22.14:42:49.892 [main            ] INFO  Http11NioProtocol      - Starting ProtocolHandler ["http-nio-8092"]
+25-03-22.14:42:49.912 [main            ] INFO  TomcatWebServer        - Tomcat started on port(s): 8092 (http) with context path ''
+25-03-22.14:42:49.923 [main            ] INFO  Application            - Started Application in 3.176 seconds (JVM running for 4.078)
+25-03-22.14:42:52.898 [http-nio-8092-exec-1] INFO  [/]                    - Initializing Spring DispatcherServlet 'dispatcherServlet'
+25-03-22.14:42:52.898 [http-nio-8092-exec-1] INFO  DispatcherServlet      - Initializing Servlet 'dispatcherServlet'
+25-03-22.14:42:52.899 [http-nio-8092-exec-1] INFO  DispatcherServlet      - Completed initialization in 1 ms
+25-03-22.14:42:52.932 [http-nio-8092-exec-1] INFO  WeixinPortalController - 微信公众号验签信息开始 [4f30d18c20330a6dad0af4e68d41a90d445d4fe8, 1742625771, 98064907, 7913036602723467259]
+25-03-22.14:42:52.941 [http-nio-8092-exec-1] INFO  SignatureUtil          - arr=[abcd, 1742625771, 98064907]
+25-03-22.14:42:52.941 [http-nio-8092-exec-1] INFO  SignatureUtil          - arr=[1742625771, 98064907, abcd]
+25-03-22.14:42:52.941 [http-nio-8092-exec-1] INFO  SignatureUtil          - content=174262577198064907abcd
+25-03-22.14:42:52.941 [http-nio-8092-exec-1] INFO  SignatureUtil          - tmpStr= 4F30D18C20330A6DAD0AF4E68D41A90D445D4FE8
+25-03-22.14:42:52.942 [http-nio-8092-exec-1] INFO  SignatureUtil          - signature= 4F30D18C20330A6DAD0AF4E68D41A90D445D4FE8
+25-03-22.14:42:52.942 [http-nio-8092-exec-1] INFO  WeixinPortalController - 微信公众号验签信息完成 checktrue 
+25-03-22.14:55:37.975 [http-nio-8092-exec-2] INFO  WeixinPortalController - 接收微信公众号信息请求o515c6uit3jIVXLB_c0KeKj1UQBk开始<xml><ToUserName><![CDATA[gh_245a30b5b3fb]]></ToUserName>
+<FromUserName><![CDATA[o515c6uit3jIVXLB_c0KeKj1UQBk]]></FromUserName>
+<CreateTime>1742626536</CreateTime>
+<MsgType><![CDATA[event]]></MsgType>
+<Event><![CDATA[subscribe]]></Event>
+<EventKey><![CDATA[]]></EventKey>
+</xml>
+25-03-22.14:55:44.936 [http-nio-8092-exec-3] INFO  WeixinPortalController - 接收微信公众号信息请求o515c6uit3jIVXLB_c0KeKj1UQBk开始<xml><ToUserName><![CDATA[gh_245a30b5b3fb]]></ToUserName>
+<FromUserName><![CDATA[o515c6uit3jIVXLB_c0KeKj1UQBk]]></FromUserName>
+<CreateTime>1742626543</CreateTime>
+<MsgType><![CDATA[text]]></MsgType>
+<Content><![CDATA[你好，你被录用了]]></Content>
+<MsgId>24948414412683454</MsgId>
+</xml>
+25-03-22.14:55:44.985 [http-nio-8092-exec-3] ERROR WeixinPortalController - 接收微信公众号信息请求o515c6uit3jIVXLB_c0KeKj1UQBk失败<xml><ToUserName><![CDATA[gh_245a30b5b3fb]]></ToUserName>
+<FromUserName><![CDATA[o515c6uit3jIVXLB_c0KeKj1UQBk]]></FromUserName>
+<CreateTime>1742626543</CreateTime>
+<MsgType><![CDATA[text]]></MsgType>
+<Content><![CDATA[你好，你被录用了]]></Content>
+<MsgId>24948414412683454</MsgId>
+</xml>
+com.thoughtworks.xstream.converters.reflection.AbstractReflectionConverter$UnknownFieldException: No such field Y1SHUI.common.weixin.MessageTextEntity.MsgId
+---- Debugging information ----
+message             : No such field Y1SHUI.common.weixin.MessageTextEntity.MsgId
+field               : MsgId
+class               : Y1SHUI.common.weixin.MessageTextEntity
+required-type       : Y1SHUI.common.weixin.MessageTextEntity
+converter-type      : com.thoughtworks.xstream.converters.reflection.ReflectionConverter
+version             : 1.4.18
+-------------------------------
+	at com.thoughtworks.xstream.converters.reflection.AbstractReflectionConverter.handleUnknownField(AbstractReflectionConverter.java:520)
+	at com.thoughtworks.xstream.converters.reflection.AbstractReflectionConverter.doUnmarshal(AbstractReflectionConverter.java:371)
+	at com.thoughtworks.xstream.converters.reflection.AbstractReflectionConverter.unmarshal(AbstractReflectionConverter.java:277)
+	at com.thoughtworks.xstream.core.TreeUnmarshaller.convert(TreeUnmarshaller.java:72)
+	at com.thoughtworks.xstream.core.TreeUnmarshaller.convertAnother(TreeUnmarshaller.java:66)
+	at com.thoughtworks.xstream.core.TreeUnmarshaller.convertAnother(TreeUnmarshaller.java:50)
+	at com.thoughtworks.xstream.core.TreeUnmarshaller.start(TreeUnmarshaller.java:134)
+	at com.thoughtworks.xstream.core.AbstractTreeMarshallingStrategy.unmarshal(AbstractTreeMarshallingStrategy.java:32)
+	at com.thoughtworks.xstream.XStream.unmarshal(XStream.java:1391)
+	at com.thoughtworks.xstream.XStream.unmarshal(XStream.java:1376)
+	at com.thoughtworks.xstream.XStream.fromXML(XStream.java:1261)
+	at com.thoughtworks.xstream.XStream.fromXML(XStream.java:1252)
+	at Y1SHUI.common.weixin.XmlUtil.xmlToBean(XmlUtil.java:144)
+	at Y1SHUI.controller.WeixinPortalController.post(WeixinPortalController.java:69)
+	at sun.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+	at sun.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:62)
+	at sun.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
+	at java.lang.reflect.Method.invoke(Method.java:498)
+	at org.springframework.web.method.support.InvocableHandlerMethod.doInvoke(InvocableHandlerMethod.java:205)
+	at org.springframework.web.method.support.InvocableHandlerMethod.invokeForRequest(InvocableHandlerMethod.java:150)
+	at org.springframework.web.servlet.mvc.method.annotation.ServletInvocableHandlerMethod.invokeAndHandle(ServletInvocableHandlerMethod.java:117)
+	at org.springframework.web.servlet.mvc.method.annotation.RequestMappingHandlerAdapter.invokeHandlerMethod(RequestMappingHandlerAdapter.java:895)
+	at org.springframework.web.servlet.mvc.method.annotation.RequestMappingHandlerAdapter.handleInternal(RequestMappingHandlerAdapter.java:808)
+	at org.springframework.web.servlet.mvc.method.AbstractHandlerMethodAdapter.handle(AbstractHandlerMethodAdapter.java:87)
+	at org.springframework.web.servlet.DispatcherServlet.doDispatch(DispatcherServlet.java:1072)
+	at org.springframework.web.servlet.DispatcherServlet.doService(DispatcherServlet.java:965)
+	at org.springframework.web.servlet.FrameworkServlet.processRequest(FrameworkServlet.java:1006)
+	at org.springframework.web.servlet.FrameworkServlet.doPost(FrameworkServlet.java:909)
+	at javax.servlet.http.HttpServlet.service(HttpServlet.java:555)
+	at org.springframework.web.servlet.FrameworkServlet.service(FrameworkServlet.java:883)
+	at javax.servlet.http.HttpServlet.service(HttpServlet.java:623)
+	at org.apache.catalina.core.ApplicationFilterChain.internalDoFilter(ApplicationFilterChain.java:209)
+	at org.apache.catalina.core.ApplicationFilterChain.doFilter(ApplicationFilterChain.java:153)
+	at org.apache.tomcat.websocket.server.WsFilter.doFilter(WsFilter.java:51)
+	at org.apache.catalina.core.ApplicationFilterChain.internalDoFilter(ApplicationFilterChain.java:178)
+	at org.apache.catalina.core.ApplicationFilterChain.doFilter(ApplicationFilterChain.java:153)
+	at org.springframework.web.filter.RequestContextFilter.doFilterInternal(RequestContextFilter.java:100)
+	at org.springframework.web.filter.OncePerRequestFilter.doFilter(OncePerRequestFilter.java:117)
+	at org.apache.catalina.core.ApplicationFilterChain.internalDoFilter(ApplicationFilterChain.java:178)
+	at org.apache.catalina.core.ApplicationFilterChain.doFilter(ApplicationFilterChain.java:153)
+	at org.springframework.web.filter.FormContentFilter.doFilterInternal(FormContentFilter.java:93)
+	at org.springframework.web.filter.OncePerRequestFilter.doFilter(OncePerRequestFilter.java:117)
+	at org.apache.catalina.core.ApplicationFilterChain.internalDoFilter(ApplicationFilterChain.java:178)
+	at org.apache.catalina.core.ApplicationFilterChain.doFilter(ApplicationFilterChain.java:153)
+	at org.springframework.web.filter.CharacterEncodingFilter.doFilterInternal(CharacterEncodingFilter.java:201)
+	at org.springframework.web.filter.OncePerRequestFilter.doFilter(OncePerRequestFilter.java:117)
+	at org.apache.catalina.core.ApplicationFilterChain.internalDoFilter(ApplicationFilterChain.java:178)
+	at org.apache.catalina.core.ApplicationFilterChain.doFilter(ApplicationFilterChain.java:153)
+	at org.apache.catalina.core.StandardWrapperValve.invoke(StandardWrapperValve.java:167)
+	at org.apache.catalina.core.StandardContextValve.invoke(StandardContextValve.java:90)
+	at org.apache.catalina.authenticator.AuthenticatorBase.invoke(AuthenticatorBase.java:481)
+	at org.apache.catalina.core.StandardHostValve.invoke(StandardHostValve.java:130)
+	at org.apache.catalina.valves.ErrorReportValve.invoke(ErrorReportValve.java:93)
+	at org.apache.catalina.core.StandardEngineValve.invoke(StandardEngineValve.java:74)
+	at org.apache.catalina.connector.CoyoteAdapter.service(CoyoteAdapter.java:343)
+	at org.apache.coyote.http11.Http11Processor.service(Http11Processor.java:390)
+	at org.apache.coyote.AbstractProcessorLight.process(AbstractProcessorLight.java:63)
+	at org.apache.coyote.AbstractProtocol$ConnectionHandler.process(AbstractProtocol.java:926)
+	at org.apache.tomcat.util.net.NioEndpoint$SocketProcessor.doRun(NioEndpoint.java:1791)
+	at org.apache.tomcat.util.net.SocketProcessorBase.run(SocketProcessorBase.java:52)
+	at org.apache.tomcat.util.threads.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1191)
+	at org.apache.tomcat.util.threads.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:659)
+	at org.apache.tomcat.util.threads.TaskThread$WrappingRunnable.run(TaskThread.java:61)
+	at java.lang.Thread.run(Thread.java:750)
+25-03-22.15:03:38.335 [main            ] INFO  Application            - Starting Application using Java 1.8.0_391 on Huey with PID 15388 (C:\Users\liyishui\Desktop\Small-Pay\s-pay-mall-web\target\classes started by liyishui in C:\Users\liyishui\Desktop\Small-Pay)
+25-03-22.15:03:38.338 [main            ] INFO  Application            - The following 1 profile is active: "dev"
+25-03-22.15:03:39.383 [main            ] INFO  TomcatWebServer        - Tomcat initialized with port(s): 8092 (http)
+25-03-22.15:03:39.399 [main            ] INFO  Http11NioProtocol      - Initializing ProtocolHandler ["http-nio-8092"]
+25-03-22.15:03:39.401 [main            ] INFO  StandardService        - Starting service [Tomcat]
+25-03-22.15:03:39.402 [main            ] INFO  StandardEngine         - Starting Servlet engine: [Apache Tomcat/9.0.75]
+25-03-22.15:03:39.627 [main            ] INFO  [/]                    - Initializing Spring embedded WebApplicationContext
+25-03-22.15:03:39.627 [main            ] INFO  ServletWebServerApplicationContext - Root WebApplicationContext: initialization completed in 1239 ms
+25-03-22.15:03:40.622 [main            ] INFO  Http11NioProtocol      - Starting ProtocolHandler ["http-nio-8092"]
+25-03-22.15:03:40.642 [main            ] INFO  TomcatWebServer        - Tomcat started on port(s): 8092 (http) with context path ''
+25-03-22.15:03:40.659 [main            ] INFO  Application            - Started Application in 2.912 seconds (JVM running for 3.788)
+25-03-22.15:03:52.437 [http-nio-8092-exec-1] INFO  [/]                    - Initializing Spring DispatcherServlet 'dispatcherServlet'
+25-03-22.15:03:52.437 [http-nio-8092-exec-1] INFO  DispatcherServlet      - Initializing Servlet 'dispatcherServlet'
+25-03-22.15:03:52.442 [http-nio-8092-exec-1] INFO  DispatcherServlet      - Completed initialization in 4 ms
+25-03-22.15:03:52.556 [http-nio-8092-exec-1] INFO  WeixinPortalController - 接收微信公众号信息请求o515c6uit3jIVXLB_c0KeKj1UQBk开始<xml><ToUserName><![CDATA[gh_245a30b5b3fb]]></ToUserName>
+<FromUserName><![CDATA[o515c6uit3jIVXLB_c0KeKj1UQBk]]></FromUserName>
+<CreateTime>1742627030</CreateTime>
+<MsgType><![CDATA[text]]></MsgType>
+<Content><![CDATA[你好，1111]]></Content>
+<MsgId>24948418348339523</MsgId>
+</xml>
+25-03-22.15:03:52.778 [http-nio-8092-exec-1] ERROR WeixinPortalController - 接收微信公众号信息请求o515c6uit3jIVXLB_c0KeKj1UQBk失败<xml><ToUserName><![CDATA[gh_245a30b5b3fb]]></ToUserName>
+<FromUserName><![CDATA[o515c6uit3jIVXLB_c0KeKj1UQBk]]></FromUserName>
+<CreateTime>1742627030</CreateTime>
+<MsgType><![CDATA[text]]></MsgType>
+<Content><![CDATA[你好，1111]]></Content>
+<MsgId>24948418348339523</MsgId>
+</xml>
+com.thoughtworks.xstream.converters.reflection.AbstractReflectionConverter$UnknownFieldException: No such field Y1SHUI.common.weixin.MessageTextEntity.MsgId
+---- Debugging information ----
+message             : No such field Y1SHUI.common.weixin.MessageTextEntity.MsgId
+field               : MsgId
+class               : Y1SHUI.common.weixin.MessageTextEntity
+required-type       : Y1SHUI.common.weixin.MessageTextEntity
+converter-type      : com.thoughtworks.xstream.converters.reflection.ReflectionConverter
+version             : 1.4.18
+-------------------------------
+	at com.thoughtworks.xstream.converters.reflection.AbstractReflectionConverter.handleUnknownField(AbstractReflectionConverter.java:520)
+	at com.thoughtworks.xstream.converters.reflection.AbstractReflectionConverter.doUnmarshal(AbstractReflectionConverter.java:371)
+	at com.thoughtworks.xstream.converters.reflection.AbstractReflectionConverter.unmarshal(AbstractReflectionConverter.java:277)
+	at com.thoughtworks.xstream.core.TreeUnmarshaller.convert(TreeUnmarshaller.java:72)
+	at com.thoughtworks.xstream.core.TreeUnmarshaller.convertAnother(TreeUnmarshaller.java:66)
+	at com.thoughtworks.xstream.core.TreeUnmarshaller.convertAnother(TreeUnmarshaller.java:50)
+	at com.thoughtworks.xstream.core.TreeUnmarshaller.start(TreeUnmarshaller.java:134)
+	at com.thoughtworks.xstream.core.AbstractTreeMarshallingStrategy.unmarshal(AbstractTreeMarshallingStrategy.java:32)
+	at com.thoughtworks.xstream.XStream.unmarshal(XStream.java:1391)
+	at com.thoughtworks.xstream.XStream.unmarshal(XStream.java:1376)
+	at com.thoughtworks.xstream.XStream.fromXML(XStream.java:1261)
+	at com.thoughtworks.xstream.XStream.fromXML(XStream.java:1252)
+	at Y1SHUI.common.weixin.XmlUtil.xmlToBean(XmlUtil.java:144)
+	at Y1SHUI.controller.WeixinPortalController.post(WeixinPortalController.java:69)
+	at sun.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+	at sun.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:62)
+	at sun.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
+	at java.lang.reflect.Method.invoke(Method.java:498)
+	at org.springframework.web.method.support.InvocableHandlerMethod.doInvoke(InvocableHandlerMethod.java:205)
+	at org.springframework.web.method.support.InvocableHandlerMethod.invokeForRequest(InvocableHandlerMethod.java:150)
+	at org.springframework.web.servlet.mvc.method.annotation.ServletInvocableHandlerMethod.invokeAndHandle(ServletInvocableHandlerMethod.java:117)
+	at org.springframework.web.servlet.mvc.method.annotation.RequestMappingHandlerAdapter.invokeHandlerMethod(RequestMappingHandlerAdapter.java:895)
+	at org.springframework.web.servlet.mvc.method.annotation.RequestMappingHandlerAdapter.handleInternal(RequestMappingHandlerAdapter.java:808)
+	at org.springframework.web.servlet.mvc.method.AbstractHandlerMethodAdapter.handle(AbstractHandlerMethodAdapter.java:87)
+	at org.springframework.web.servlet.DispatcherServlet.doDispatch(DispatcherServlet.java:1072)
+	at org.springframework.web.servlet.DispatcherServlet.doService(DispatcherServlet.java:965)
+	at org.springframework.web.servlet.FrameworkServlet.processRequest(FrameworkServlet.java:1006)
+	at org.springframework.web.servlet.FrameworkServlet.doPost(FrameworkServlet.java:909)
+	at javax.servlet.http.HttpServlet.service(HttpServlet.java:555)
+	at org.springframework.web.servlet.FrameworkServlet.service(FrameworkServlet.java:883)
+	at javax.servlet.http.HttpServlet.service(HttpServlet.java:623)
+	at org.apache.catalina.core.ApplicationFilterChain.internalDoFilter(ApplicationFilterChain.java:209)
+	at org.apache.catalina.core.ApplicationFilterChain.doFilter(ApplicationFilterChain.java:153)
+	at org.apache.tomcat.websocket.server.WsFilter.doFilter(WsFilter.java:51)
+	at org.apache.catalina.core.ApplicationFilterChain.internalDoFilter(ApplicationFilterChain.java:178)
+	at org.apache.catalina.core.ApplicationFilterChain.doFilter(ApplicationFilterChain.java:153)
+	at org.springframework.web.filter.RequestContextFilter.doFilterInternal(RequestContextFilter.java:100)
+	at org.springframework.web.filter.OncePerRequestFilter.doFilter(OncePerRequestFilter.java:117)
+	at org.apache.catalina.core.ApplicationFilterChain.internalDoFilter(ApplicationFilterChain.java:178)
+	at org.apache.catalina.core.ApplicationFilterChain.doFilter(ApplicationFilterChain.java:153)
+	at org.springframework.web.filter.FormContentFilter.doFilterInternal(FormContentFilter.java:93)
+	at org.springframework.web.filter.OncePerRequestFilter.doFilter(OncePerRequestFilter.java:117)
+	at org.apache.catalina.core.ApplicationFilterChain.internalDoFilter(ApplicationFilterChain.java:178)
+	at org.apache.catalina.core.ApplicationFilterChain.doFilter(ApplicationFilterChain.java:153)
+	at org.springframework.web.filter.CharacterEncodingFilter.doFilterInternal(CharacterEncodingFilter.java:201)
+	at org.springframework.web.filter.OncePerRequestFilter.doFilter(OncePerRequestFilter.java:117)
+	at org.apache.catalina.core.ApplicationFilterChain.internalDoFilter(ApplicationFilterChain.java:178)
+	at org.apache.catalina.core.ApplicationFilterChain.doFilter(ApplicationFilterChain.java:153)
+	at org.apache.catalina.core.StandardWrapperValve.invoke(StandardWrapperValve.java:167)
+	at org.apache.catalina.core.StandardContextValve.invoke(StandardContextValve.java:90)
+	at org.apache.catalina.authenticator.AuthenticatorBase.invoke(AuthenticatorBase.java:481)
+	at org.apache.catalina.core.StandardHostValve.invoke(StandardHostValve.java:130)
+	at org.apache.catalina.valves.ErrorReportValve.invoke(ErrorReportValve.java:93)
+	at org.apache.catalina.core.StandardEngineValve.invoke(StandardEngineValve.java:74)
+	at org.apache.catalina.connector.CoyoteAdapter.service(CoyoteAdapter.java:343)
+	at org.apache.coyote.http11.Http11Processor.service(Http11Processor.java:390)
+	at org.apache.coyote.AbstractProcessorLight.process(AbstractProcessorLight.java:63)
+	at org.apache.coyote.AbstractProtocol$ConnectionHandler.process(AbstractProtocol.java:926)
+	at org.apache.tomcat.util.net.NioEndpoint$SocketProcessor.doRun(NioEndpoint.java:1791)
+	at org.apache.tomcat.util.net.SocketProcessorBase.run(SocketProcessorBase.java:52)
+	at org.apache.tomcat.util.threads.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1191)
+	at org.apache.tomcat.util.threads.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:659)
+	at org.apache.tomcat.util.threads.TaskThread$WrappingRunnable.run(TaskThread.java:61)
+	at java.lang.Thread.run(Thread.java:750)
+25-03-22.15:09:34.227 [main            ] INFO  Application            - Starting Application using Java 1.8.0_391 on Huey with PID 9916 (C:\Users\liyishui\Desktop\Small-Pay\s-pay-mall-web\target\classes started by liyishui in C:\Users\liyishui\Desktop\Small-Pay)
+25-03-22.15:09:34.230 [main            ] INFO  Application            - The following 1 profile is active: "dev"
+25-03-22.15:09:35.290 [main            ] INFO  TomcatWebServer        - Tomcat initialized with port(s): 8092 (http)
+25-03-22.15:09:35.308 [main            ] INFO  Http11NioProtocol      - Initializing ProtocolHandler ["http-nio-8092"]
+25-03-22.15:09:35.310 [main            ] INFO  StandardService        - Starting service [Tomcat]
+25-03-22.15:09:35.310 [main            ] INFO  StandardEngine         - Starting Servlet engine: [Apache Tomcat/9.0.75]
+25-03-22.15:09:35.567 [main            ] INFO  [/]                    - Initializing Spring embedded WebApplicationContext
+25-03-22.15:09:35.567 [main            ] INFO  ServletWebServerApplicationContext - Root WebApplicationContext: initialization completed in 1287 ms
+25-03-22.15:09:36.557 [main            ] INFO  Http11NioProtocol      - Starting ProtocolHandler ["http-nio-8092"]
+25-03-22.15:09:36.573 [main            ] INFO  TomcatWebServer        - Tomcat started on port(s): 8092 (http) with context path ''
+25-03-22.15:09:36.583 [main            ] INFO  Application            - Started Application in 2.982 seconds (JVM running for 3.883)
+25-03-22.15:09:44.245 [http-nio-8092-exec-1] INFO  [/]                    - Initializing Spring DispatcherServlet 'dispatcherServlet'
+25-03-22.15:09:44.246 [http-nio-8092-exec-1] INFO  DispatcherServlet      - Initializing Servlet 'dispatcherServlet'
+25-03-22.15:09:44.251 [http-nio-8092-exec-1] INFO  DispatcherServlet      - Completed initialization in 4 ms
+25-03-22.15:09:44.316 [http-nio-8092-exec-1] INFO  WeixinPortalController - 接收微信公众号信息请求o515c6uit3jIVXLB_c0KeKj1UQBk开始<xml><ToUserName><![CDATA[gh_245a30b5b3fb]]></ToUserName>
+<FromUserName><![CDATA[o515c6uit3jIVXLB_c0KeKj1UQBk]]></FromUserName>
+<CreateTime>1742627382</CreateTime>
+<MsgType><![CDATA[text]]></MsgType>
+<Content><![CDATA[你好，1111]]></Content>
+<MsgId>24948424269906773</MsgId>
+</xml>
+25-03-22.15:10:04.510 [http-nio-8092-exec-5] INFO  WeixinPortalController - 接收微信公众号信息请求o515c6uit3jIVXLB_c0KeKj1UQBk开始<xml><ToUserName><![CDATA[gh_245a30b5b3fb]]></ToUserName>
+<FromUserName><![CDATA[o515c6uit3jIVXLB_c0KeKj1UQBk]]></FromUserName>
+<CreateTime>1742627403</CreateTime>
+<MsgType><![CDATA[text]]></MsgType>
+<Content><![CDATA[你被录用了]]></Content>
+<MsgId>24948429119519545</MsgId>
+</xml>

@@ -1,0 +1,58 @@
+25-03-21.20:42:16.820 [main            ] INFO  Application            - Starting Application using Java 1.8.0_391 on Huey with PID 25456 (C:\Users\liyishui\Desktop\Small-Pay\s-pay-mall-web\target\classes started by liyishui in C:\Users\liyishui\Desktop\Small-Pay)
+25-03-21.20:42:16.824 [main            ] INFO  Application            - The following 1 profile is active: "dev"
+25-03-21.20:42:17.787 [main            ] WARN  ClassPathMapperScanner - No MyBatis mapper was found in '[Y1SHUI]' package. Please check your configuration.
+25-03-21.20:42:18.377 [main            ] INFO  TomcatWebServer        - Tomcat initialized with port(s): 8092 (http)
+25-03-21.20:42:18.391 [main            ] INFO  Http11NioProtocol      - Initializing ProtocolHandler ["http-nio-8092"]
+25-03-21.20:42:18.392 [main            ] INFO  StandardService        - Starting service [Tomcat]
+25-03-21.20:42:18.392 [main            ] INFO  StandardEngine         - Starting Servlet engine: [Apache Tomcat/9.0.75]
+25-03-21.20:42:18.681 [main            ] INFO  [/]                    - Initializing Spring embedded WebApplicationContext
+25-03-21.20:42:18.682 [main            ] INFO  ServletWebServerApplicationContext - Root WebApplicationContext: initialization completed in 1797 ms
+25-03-21.20:42:18.755 [main            ] WARN  AnnotationConfigServletWebServerApplicationContext - Exception encountered during context initialization - cancelling refresh attempt: org.springframework.beans.factory.BeanCreationException: Error creating bean with name 'weixinPortalController': Injection of resource dependencies failed; nested exception is org.springframework.beans.factory.BeanCreationException: Error creating bean with name 'weixinLoginServiceImpl': Injection of resource dependencies failed; nested exception is org.springframework.beans.factory.NoSuchBeanDefinitionException: No qualifying bean of type 'com.google.common.cache.Cache<java.lang.String, java.lang.String>' available: expected at least 1 bean which qualifies as autowire candidate. Dependency annotations: {@javax.annotation.Resource(shareable=true, lookup=, name=, description=, authenticationType=CONTAINER, type=class java.lang.Object, mappedName=)}
+25-03-21.20:42:18.759 [main            ] INFO  StandardService        - Stopping service [Tomcat]
+25-03-21.20:42:18.777 [main            ] INFO  ConditionEvaluationReportLoggingListener - 
+
+Error starting ApplicationContext. To display the conditions report re-run your application with 'debug' enabled.
+25-03-21.20:42:18.818 [main            ] ERROR LoggingFailureAnalysisReporter - 
+
+***************************
+APPLICATION FAILED TO START
+***************************
+
+Description:
+
+A component required a bean of type 'com.google.common.cache.Cache' that could not be found.
+
+
+Action:
+
+Consider defining a bean of type 'com.google.common.cache.Cache' in your configuration.
+
+25-03-21.20:46:53.393 [main            ] INFO  Application            - Starting Application using Java 1.8.0_391 on Huey with PID 28648 (C:\Users\liyishui\Desktop\Small-Pay\s-pay-mall-web\target\classes started by liyishui in C:\Users\liyishui\Desktop\Small-Pay)
+25-03-21.20:46:53.398 [main            ] INFO  Application            - The following 1 profile is active: "dev"
+25-03-21.20:46:54.448 [main            ] WARN  ClassPathMapperScanner - No MyBatis mapper was found in '[Y1SHUI]' package. Please check your configuration.
+25-03-21.20:46:55.194 [main            ] INFO  TomcatWebServer        - Tomcat initialized with port(s): 8092 (http)
+25-03-21.20:46:55.211 [main            ] INFO  Http11NioProtocol      - Initializing ProtocolHandler ["http-nio-8092"]
+25-03-21.20:46:55.212 [main            ] INFO  StandardService        - Starting service [Tomcat]
+25-03-21.20:46:55.213 [main            ] INFO  StandardEngine         - Starting Servlet engine: [Apache Tomcat/9.0.75]
+25-03-21.20:46:55.583 [main            ] INFO  [/]                    - Initializing Spring embedded WebApplicationContext
+25-03-21.20:46:55.583 [main            ] INFO  ServletWebServerApplicationContext - Root WebApplicationContext: initialization completed in 2097 ms
+25-03-21.20:46:55.709 [main            ] WARN  AnnotationConfigServletWebServerApplicationContext - Exception encountered during context initialization - cancelling refresh attempt: org.springframework.beans.factory.BeanCreationException: Error creating bean with name 'weixinPortalController': Injection of resource dependencies failed; nested exception is org.springframework.beans.factory.BeanCreationException: Error creating bean with name 'weixinLoginServiceImpl': Injection of resource dependencies failed; nested exception is org.springframework.beans.factory.NoSuchBeanDefinitionException: No qualifying bean of type 'com.google.common.cache.Cache<java.lang.String, java.lang.String>' available: expected at least 1 bean which qualifies as autowire candidate. Dependency annotations: {@javax.annotation.Resource(shareable=true, lookup=, name=, description=, authenticationType=CONTAINER, type=class java.lang.Object, mappedName=)}
+25-03-21.20:46:55.714 [main            ] INFO  StandardService        - Stopping service [Tomcat]
+25-03-21.20:46:55.738 [main            ] INFO  ConditionEvaluationReportLoggingListener - 
+
+Error starting ApplicationContext. To display the conditions report re-run your application with 'debug' enabled.
+25-03-21.20:46:55.789 [main            ] ERROR LoggingFailureAnalysisReporter - 
+
+***************************
+APPLICATION FAILED TO START
+***************************
+
+Description:
+
+A component required a bean of type 'com.google.common.cache.Cache' that could not be found.
+
+
+Action:
+
+Consider defining a bean of type 'com.google.common.cache.Cache' in your configuration.
+

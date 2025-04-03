@@ -20,6 +20,8 @@ import java.util.*;
 public class XmlUtil {
     public static Map<String, String> xmlToMap(HttpServletRequest request) throws Exception{
         try (InputStream inputStream = request.getInputStream()) {
+
+
             Map<String,String> map = new HashMap<>();
             SAXReader reader = new SAXReader();//SAXReader 是dom4j里的阅读器
             Document document = reader.read(inputStream);//同理Document是dom4j里用来读xml的
